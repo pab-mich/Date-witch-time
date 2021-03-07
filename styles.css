@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+.section {
+  min-height: 10rem;
+  width: 25rem;
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #141e30;
+}
+
+.clock {
+  font-size: 5rem;
+  color: #fff;
+}
+.date {
+  font-size: 2rem;
+  color: #fff;
+  margin: auto;
+}
+@media (max-width: 510px) {
+  .clock {
+    font-size: 4rem;
+  }
+  .section {
+    width: 20rem;
+    padding: 50px;
+  }
+}
+@media (max-width: 430px) {
+  .clock {
+    font-size: 3rem;
+  }
+  .section {
+    width: 15rem;
+    padding: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .clock {
+    font-size: 2rem;
+  }
+  .section {
+    width: 10rem;
+    padding: 30px;
+  }
+  .date {
+    font-size: 1.5rem;
+  }
+}
